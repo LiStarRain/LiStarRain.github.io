@@ -64,11 +64,11 @@ export default defineUserConfig({
           link: '/courses/ECTF/Introduction.md',
           collapsible: true,
         },
-        // {
-        //   text: '声部和声部进行',
-        //   link: '/courses/ECTF/Voicings.md',
-        //   collapsible: true,
-        // },
+        {
+          text: '声部和声部运动',
+          link: '/courses/ECTF/Voicings.md',
+          collapsible: true,
+        },
       ],
     },
   }),
