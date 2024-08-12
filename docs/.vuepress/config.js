@@ -3,6 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default';
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom';
 import { markdownImagePlugin } from '@vuepress/plugin-markdown-image';
 import { searchPlugin } from '@vuepress/plugin-search';
+import { markdownMathPlugin } from '@vuepress/plugin-markdown-math';
 import { defineUserConfig } from 'vuepress';
 import logoPath from './logoPath';
 
@@ -65,7 +66,7 @@ export default defineUserConfig({
           collapsible: true,
         },
         {
-          text: '声部和声部运动',
+          text: '和弦配置和声部运动',
           link: '/courses/ECTF/Voicings.md',
           collapsible: true,
         },
@@ -90,6 +91,7 @@ export default defineUserConfig({
       // 排除首页
       isSearchable: page => page.path !== '/',
     }),
+    markdownMathPlugin(),
   ],
 
   bundler: viteBundler(),
