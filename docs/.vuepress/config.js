@@ -66,7 +66,7 @@ export default defineUserConfig({
           collapsible: true,
         },
         {
-          text: '和弦配置和声部运动',
+          text: '和弦排列和声部运动',
           link: '/courses/ECTF/Voicings.md',
           collapsible: true,
         },
