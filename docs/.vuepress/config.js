@@ -67,7 +67,12 @@ export default defineUserConfig({
         },
         {
           text: '和弦排列和声部运动',
-          link: '/courses/ECTF/Voicings.md',
+          link: '/courses/ECTF/Voicings_and_Voice-Leadings.md',
+          collapsible: true,
+        },
+        {
+          text: '主和弦与属和弦',
+          link: '/courses/ECTF/Tonic_and_Dominant.md',
           collapsible: true,
         },
       ],
