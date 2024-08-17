@@ -40,7 +40,10 @@ export default defineUserConfig({
       {
         text: '作曲学习',
         link: '/courses/',
-        children: [{ text: '基础练习', link: '/courses/ECTF/Introduction.md' }],
+        children: [
+          { text: '基础练习', link: '/courses/ECTF/Introduction.md' },
+          { text: '旋律写作', link: '/courses/MelodyWriting/MelodyPhrase.md' },
+        ],
       },
       {
         text: '联系我',
@@ -73,6 +76,18 @@ export default defineUserConfig({
         {
           text: '主和弦与属和弦',
           link: '/courses/ECTF/Tonic_and_Dominant.md',
+          collapsible: true,
+        },
+      ],
+      '/courses/MelodyWriting': [
+        {
+          text: '旋律短语',
+          link: '/courses/MelodyWriting/MelodyPhrase.md',
+          collapsible: true,
+        },
+        {
+          text: '旋律的俯仰运动',
+          link: '/courses/MelodyWriting/ThePitchMovement.md',
           collapsible: true,
         },
       ],
