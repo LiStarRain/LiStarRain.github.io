@@ -90,6 +90,11 @@ export default defineUserConfig({
           link: '/courses/MelodyWriting/ThePitchMovement.md',
           collapsible: true,
         },
+        {
+          text: '旋律的发展',
+          link: '/courses/MelodyWriting/Development.md',
+          collapsible: true,
+        },
       ],
     },
   }),
